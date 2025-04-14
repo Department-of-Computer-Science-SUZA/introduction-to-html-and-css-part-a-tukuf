@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form action ="/action_page.php">
+        <fieldset>
+            <legend> Personal Information..</legend> 
+        Name: <br>
+        <input type  = "text" name = "name"><br>
+        Email: <br>
+        <input type = "text" email = "email"><br>
+        Password:<br>
+        <input type = "text" password = "password"><br>
+    
+        Gender : <br>
+        <input type = "radio" name = "gender" values = "male"> Male <br>
+        <input type = "radio" name = "gender" value = "female"> Female<br> 
+        <input type = "radio" name = "gender" value = "other"> Other<br>
+    
+        Countries:<br>
+        <input list="countries">
+    
+        <datalist id="Countries">
+            <option value="Tanzania">
+            <option value="Morocco">
+            <option value="Kenya">
+            <option value="Uganda">
+            <option value="Botswana">          
+    
+        </datalist><br>
+        <br><br>
+        <input type = "submit" value = "Submit"><br>
+        </fieldset>
+    
+</body>
+</html>
